@@ -1,0 +1,6 @@
+
+---
+- hosts: all
+  sudo: yes
+  roles:
+    - ec2ami
