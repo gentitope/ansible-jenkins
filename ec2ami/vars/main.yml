@@ -1,11 +1,10 @@
 ---
-# vars file for ec2ami
-vars :
-  keypair: ansible
-  instance_type: t2.micro
-  security_group: sg-0ed1836a
-  image: ami-f95ef58a
-  region: eu-west-1
-  subnet: subnet-6acd9433
-  groupname: webserver
+
+keypair: ansible
+instance_type: t2.micro
+security_group: sg-0ed1836a
+image: ami-f95ef58a
+region: eu-west-1
+subnet: subnet-6acd9433
+groupname: webserver
 
