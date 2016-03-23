@@ -3,10 +3,11 @@
 - name: Provision an EC2 Instance
   hosts: localhost
   gather_facts: False
+  roles:
+    - ec2ami
 - name: configure new instance
   hosts: ec2ami
   sudo: yes 
   remote_user: ubuntu 
   gather_facts: True
-  roles:
-    - ec2ami
+ 
