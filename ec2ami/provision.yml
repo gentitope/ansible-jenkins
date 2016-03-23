@@ -1,8 +1,8 @@
 
 ---
-- hosts: localhost
+- hosts: ec2ami
 - name: configure new instance
-  hosts: webservers
+  hosts: ec2ami
   sudo: yes 
   remote_user: ubuntu 
   gather_facts: True
