@@ -1,6 +1,6 @@
 
 ---
-- hosts: ec2ami
+- hosts: localhost
 - name: configure new instance
   hosts: ec2ami
   sudo: yes 
