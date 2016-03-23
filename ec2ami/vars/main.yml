@@ -6,5 +6,5 @@ security_group: sg-0ed1836a
 image: ami-f95ef58a
 region: eu-west-1
 subnet: subnet-6acd9433
-groupname: webserver
+groupname: ec2ami
 
