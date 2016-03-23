@@ -1,6 +1,6 @@
 ---
 
-keypair: jenkins
+keypair: jenkin1
 instance_type: t2.micro
 security_group: sg-0ed1836a
 image: ami-f95ef58a
