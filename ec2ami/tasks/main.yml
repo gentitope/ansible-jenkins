@@ -21,5 +21,5 @@
   sudo: yes 
   remote_user: ubuntu 
   gather_facts: True
-- include: nginx-ec2.yml
+#- include: nginx-ec2.yml
 
