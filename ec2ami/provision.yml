@@ -1,6 +1,8 @@
 
 ---
-- hosts: localhost
+- name: Provision an EC2 Instance
+  hosts: localhost
+  gather_facts: False
 - name: configure new instance
   hosts: ec2ami
   sudo: yes 
