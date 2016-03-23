@@ -1,7 +1,10 @@
 
 ---
 - hosts: localhost
-  user: ubuntu
-  sudo: yes
+- name: configure new instance
+  hosts: webservers
+  sudo: yes 
+  remote_user: ubuntu 
+  gather_facts: True
   roles:
     - ec2ami
