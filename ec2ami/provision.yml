@@ -8,6 +8,6 @@
 - name: configure new instance
   hosts: ec2ami
   sudo: yes 
-  remote_user: ubuntu 
+  remote_user: jenkins
   gather_facts: True
  
